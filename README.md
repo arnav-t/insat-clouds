@@ -4,7 +4,7 @@
 ### Purpose 
 INSAT website only provides a single image for present cloud cover. Unfortunately, it lacks a history feature which means it is not possible to observe the cloud trajectories.    
 ![map](http://satellite.imd.gov.in/img/3Dasiasec_bt1.jpg "INSAT Map")
-Fortunately, this problem can be overcame quite easily.      
+Fortunately, this problem can be overcome easily.      
 
 ### Working  
 A `cron` job is scheduled to execute this script every 30 minutes (the usual update rate of the INSAT website) to download a new, latest cloud cover map. This new image will overwrite any maps older than 5 hours. 
