@@ -13,9 +13,14 @@ A GIF is now generated using MoviePy from the past 10 images (last 5 hours).
 ### Usage
 A cron job must be scheduled to run the script every five hours.
 ```
+chmod 755 cloudmap.py
 crontab -e
 ```
 The following line must be added (the path may differ).
 ```
 */30 * * * * /home/avz/Documents/py/insat/cloudmap.py
 ```
+Now, every 30 minutes, the GIF will be updated.
+
+### Dependencies 
+* MoviePy 
