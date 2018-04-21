@@ -1,13 +1,13 @@
 # insat-clouds
-## Generate animated GIF from INSAT cloud cover data for past five hours
+## Generate animated GIFs from INSAT cloud cover maps for the past five hours
 
 ### Purpose 
-INSAT website only provides a single image for present cloud cover. Unfortunately, it lacks a history feature which means it is not possible to observe the cloud trajectories.    
+The INSAT website only provides a single image for the latest cloud cover data. Unfortunately, it lacks a history feature which means it is not possible to observe the cloud trajectories in real time.    
 ![map](http://satellite.imd.gov.in/img/3Dasiasec_bt1.jpg "INSAT Map")
-Fortunately, this problem can be overcome easily.      
+Fortunately, this problem can be overcome quite easily.      
 
 ### Working  
-A `cron` job is scheduled to execute this script every 30 minutes (the usual update rate of the INSAT website) to download a new, latest cloud cover map. This new image will overwrite any maps older than 5 hours. 
+A `cron` job is scheduled to execute this script every 30 minutes (the usual update rate of the INSAT satellite) to download a new, updated cloud cover map. This new image will overwrite any maps older than 5 hours. 
 A GIF is now generated using MoviePy from the past 10 images (last 5 hours).   
 
 ### Usage
