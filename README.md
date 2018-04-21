@@ -11,7 +11,7 @@ A `cron` job is scheduled to execute this script every 30 minutes (the usual upd
 A GIF is now generated using MoviePy from the past 10 images (last 5 hours).   
 
 ### Usage
-A cron job must be scheduled to run the script every five hours.
+A `cron` job must be scheduled to run the script every five hours.
 ```
 chmod 755 cloudmap.py
 crontab -e
