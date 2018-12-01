@@ -14,7 +14,7 @@ A GIF is now generated using MoviePy from the past 10 images (last 5 hours).
 1. `git clone https://github.com/arnav-t/insat-clouds.git`
 2. `cd insat-clouds`
 3. `pipenv shell --three`
-4. `pipenv install`
+4. `pipenv install` (Only the first time)
 5. `python3 cloudmap.py`
 
 ## Usage
