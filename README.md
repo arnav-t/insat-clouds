@@ -1,4 +1,7 @@
 # insat-clouds
+![Python](https://img.shields.io/badge/Made%20with-Python-blue.svg) 
+![Gitter](https://img.shields.io/gitter/room/:user/:repo.svg)
+     
 Generate animated GIFs from INSAT cloud cover maps for the past five hours
 
 ## Purpose 
@@ -31,3 +34,5 @@ Now, every 30 minutes, the GIF will be updated.
 
 ## Dependencies 
 * MoviePy 
+## Communication
+[Gitter](https://gitter.im/INSAT-CloudsChat/Lobby)
