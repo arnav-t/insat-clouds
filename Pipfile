@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 moviepy = "*"
 requests = "*"
+pillow = "*"
+cstringio = "*"
 
 [requires]
 python_version = "3.6"
